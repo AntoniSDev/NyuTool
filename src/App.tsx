@@ -6,9 +6,9 @@ import "./styles/index.css";
 function App() {
   return (
     <div>
-      <Header title="Mes Skill React" />
+      <Header title="Skill React" />
       <div className="container">
-        <Sidebar />
+        {/* <Sidebar /> */}
         <MainContent />
       </div>
     </div>

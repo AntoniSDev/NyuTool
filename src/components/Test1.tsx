@@ -4,13 +4,13 @@ import { okaidia } from "react-syntax-highlighter/dist/esm/styles/prism";
 const Test1 = () => {
   return (
     <div>
-      <h2>Comment créer un composant :</h2>
+      <h2>Créer un composant :</h2>
       <p>
-        Pour créer un composant React, commencez par définir une fonction qui
-        retourne du JSX (JavaScript XML). Exportez ensuite le composant à la fin
-        de sa définition.
+        Pour créer un composant React, il faut définir une fonction qui retourne
+        du JSX (JavaScript XML) et exporter le composant à la fin de sa
+        définition.
       </p>
-      <p>Voici un exemple simple de création d'un composant :</p>
+      <p>Exemple de création d'un composant :</p>
       <SyntaxHighlighter language="tsx" style={okaidia}>
         {`const MonComposant = () => {
   return (
@@ -24,18 +24,16 @@ const Test1 = () => {
 export default MonComposant;`}
       </SyntaxHighlighter>
 
-      <h2>Comment appeler un composant :</h2>
+      <h2>Appeler un composant :</h2>
       <p>
-        Une fois que vous avez créé un composant, vous pouvez l'appeler dans
-        d'autres parties de votre application. Pour cela, importez simplement le
-        composant et incluez-le dans le code JSX où vous souhaitez qu'il soit
-        rendu.
+        Une fois que le composant est crée, il faut l'appeler dans d'autres
+        parties de l'application, en l'incluant dans le code JSX là où il doit
+        être affiché.
       </p>
       <p>
-        Par exemple, supposons que nous ayons créé un composant{" "}
-        <code>MonComposant</code> comme illustré ci-dessus. Nous pouvons
-        maintenant l'appeler dans d'autres composants ou dans le fichier racine
-        de notre application :
+        Par exemple, le composant <code>MonComposant</code>. On l'apelle dans
+        d'autres composants ou dans le fichier racine de notre application ( App
+        ) :
       </p>
       <SyntaxHighlighter language="tsx" style={okaidia}>
         {`
