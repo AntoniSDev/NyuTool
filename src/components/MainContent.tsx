@@ -28,7 +28,6 @@ const MainContent = () => {
 
   return (
     <div>
-      <h1>wtf ?</h1>
       <div className="buttons-container">
         <button onClick={() => handleClick("test1")}>test1</button>
         <button onClick={() => handleClick("test2")}>test2</button>
